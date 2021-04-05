@@ -1,11 +1,25 @@
 .basics {
   font-size: 24px;
+  width: 400px;
 }
 
 .basics li {
+  font-family: 'Trebuchet MS', 'Lucida Sans';
+  padding: 7px 20px;
   margin-bottom: 10px;
+  border-radius: 15px;
+  border-left: 10px solid #7e7c7b;
+  box-shadow: 2px -2px 5px 0 rgba(0, 0, 0, 0.1),
+    -2px -2px 5px 0 rgba(0, 0, 0, 0.1), 2px 2px 5px 0 rgba(0, 0, 0, 0.1),
+    -2px 2px 5px 0 rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: 0.3s all linear;
 }
 
 .basics span {
-  font-weight: 700;
+  float: left;
+  width: 75%;
+  color: #7c7d7f;
+  margin-right: 10px;
 }
